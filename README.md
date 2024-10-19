@@ -27,54 +27,43 @@ This project is a part of Hacktoberfest, and we're welcoming contributions! Whet
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/budget-tracker.git
+   git clone https://github.com/your-github-username/budget-tracker.git
    ```
 2. Install the necessary dependencies:
    ```bash
-   pip install matplotlib customtkinter db-sqlite3
+   pip install -r requirements.txt
    ```
 3. Run the application:
    ```bash
-   python App.py
+   python src/Main.py
    ```
 
 ---
 
 ## Contributing
-We welcome contributions! Here's how you can get started:
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) for more details.
 
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin feature-name
-   ```
-5. Create a pull request on GitHub.
+### Thanks To All Our Contributors
+<a href="https://github.com/SpreadSheets600/Budget-Tracker/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SpreadSheets600/Budget-Tracker" />
+</a>
 
 ---
-
 ## To-Do List
 ### Core Functionalities
-1. [x] **Fix the Visuals**: Improve the UI/UX, adjust layout, and ensure the design is clean and user-friendly.
-2. [ ] **Fix Visualization Tab**: Ensure that charts (bar, line, pie) display properly without overlapping or layout issues.
+1. [ ] **Fix the Visuals**: Improve the UI/UX, adjust layout, and ensure the design is clean and user-friendly.
+2. [X] **Fix Visualization Tab**: Ensure that charts (bar, line, pie) display properly without overlapping or layout issues.
 3. [ ] **Work on Lendings Tab**: Add a feature where users can track money lent to others, with options to set deadlines and reminders.
 4. [ ] **Work on Borrowing Tab**: Implement a tab to track loans or borrowed amounts, including deadlines and reminders.
-5. [ ] **Make Data Permanent**: Enhance the database functionality to ensure persistent data storage, so users can retrieve past transactions after restarting the app.
-6. [ ] **Replace Tkinter with CustomTkinter**: Enhance the look and feel of the app by integrating `CustomTkinter` for modern, polished widgets.
+5. [X] **Make Data Permanent**: Enhance the database functionality to ensure persistent data storage, so users can retrieve past transactions after restarting the app.
+6. [X] **Replace Tkinter with CustomTkinter**: Enhance the look and feel of the app by integrating `CustomTkinter` for modern, polished widgets.
 
 ### Enhancements
-7. [ ] **User Authentication**: Add basic login functionality to allow different users to manage their accounts separately.
+7. [X] **User Authentication**: Add basic login functionality to allow different users to manage their accounts separately.
 8. [ ] **Currency Conversion**: Implement a feature to convert between currencies, pulling exchange rates from an API.
 9. [ ] **Recurring Transactions**: Enable users to set recurring transactions (monthly bills, salary, etc.) that auto-log at set intervals.
 10. [ ] **Export Data**: Allow users to export their data (income, expenses, goals) to CSV or Excel format for easier analysis.
-11. [ ] **Add Notifications**: Implement a system to notify users when they exceed budget limits or reach savings goals.
+11. [X] **Add Notifications**: Implement a system to notify users when they exceed budget limits or reach savings goals.
 12. [ ] **Mobile App Version**: Plan and develop a mobile version (possibly using Kivy or other frameworks).
 
 ---
